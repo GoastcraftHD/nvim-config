@@ -1,0 +1,22 @@
+return {
+	"folke/snacks.nvim",
+	opts = {
+		bigfile = { enabled = true },
+		dashboard = { enabled = true },
+		explorer = { enabled = false },
+		indent = { enabled = true },
+		image = { enable = true },
+		input = { enabled = true },
+		picker = { enabled = false },
+		notifier = { enabled = true },
+		quickfile = { enabled = true },
+		scope = { enabled = true },
+		scroll = { enabled = true },
+		statuscolumn = { enabled = false },
+		words = { enabled = false },
+		git = { enable = true },
+		gitbrowse = { enable = true },
+		lazygit = { enable = false },
+	},
+	keys = {},
+}
