@@ -57,6 +57,9 @@ return {
 				"conventional_commits",
 				"ecolog",
 			},
+			per_filetype = {
+				sql = { "snippets", "dadbod", "buffer" },
+			},
 			providers = {
 				emoji = {
 					module = "blink-emoji",
@@ -125,6 +128,7 @@ return {
 					opts = {}, -- none so far
 				},
 				ecolog = { name = "ecolog", module = "ecolog.integrations.cmp.blink_cmp" },
+				dadbod = { name = "Dadbod", module = "vim_dadbod_completion.blink" },
 			},
 		},
 
