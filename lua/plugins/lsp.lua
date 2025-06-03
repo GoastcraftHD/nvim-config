@@ -201,8 +201,9 @@ return {
 			bashls = {},
 			marksman = {},
 			clangd = {},
+			powershell_es = {},
+			pyright = {},
 			-- gopls = {},
-			-- pyright = {},
 			-- rust_analyzer = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 			--
