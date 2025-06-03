@@ -52,7 +52,7 @@ return {
 				"snippets",
 				"buffer",
 				"emoji",
-				"git",
+				--				"git",
 				"css_vars",
 				"conventional_commits",
 				"ecolog",
