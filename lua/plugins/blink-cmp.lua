@@ -75,39 +75,6 @@ return {
 						)
 					end,
 				},
-				git = {
-					module = "blink-cmp-git",
-					name = "Git",
-					opts = {
-						git_centers = {
-							github = {
-								issue = {
-									get_token = function()
-										return "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"
-									end,
-								},
-								pull_request = {
-									get_token = function()
-										return "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"
-									end,
-								},
-								mention = {
-									get_token = function()
-										return "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"
-									end,
-									get_documentation = function(item)
-										local default =
-											require("blink-cmp-git.default.github").mention.get_documentation(item)
-										default.get_token = function()
-											return "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"
-										end
-										return default
-									end,
-								},
-							},
-						},
-					},
-				},
 				css_vars = {
 					name = "css-vars",
 					module = "css-vars.blink",
